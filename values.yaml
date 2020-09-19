@@ -6,8 +6,8 @@ dockercfg: ${artifact.source.dockerconfig}
 
 createImagePullSecret: false
 
-createNamespace: true
-namespace: ${infra.kubernetes.namespace}
+createNamespace: false
+namespace: "HarnessRocks"
 
 # Service Type allow you to specify what kind of service you want.
 # Possible values for ServiceType are:
