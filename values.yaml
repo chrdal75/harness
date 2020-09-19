@@ -6,7 +6,7 @@ dockercfg: ${artifact.source.dockerconfig}
 
 createImagePullSecret: false
 
-createNamespace: false
+createNamespace: true
 namespace: "HarnessRocks"
 
 # Service Type allow you to specify what kind of service you want.
